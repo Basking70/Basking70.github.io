@@ -1,196 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Basir Navab</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+<html>
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
 
-	<!-- stylesheet css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/templatemo-blue.css">
-</head>
-<body data-spy="scroll" data-target=".navbar-collapse">
+.bgimg {
+	background-image: url('forestbridge.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
 
-<!-- preloader section -->
-<div class="preloader">
-	<div class="sk-spinner sk-spinner-wordpress">
-       <span class="sk-inner-circle"></span>
-     </div>
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p id="demo" style="font-size:30px"></p>
+  </div>
+  <div class="bottomleft">
+    <p>navab@usc.edu</p>
+  </div>
 </div>
 
-<!-- header section -->
-<header>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<img src="images/tm-easy-profile.jpg" class="img-responsive img-circle tm-border" alt="Basir Navab Resume">
-				<hr>
-				<h1 class="white bold shadow">Hi, I am Basir Navab</h1>
-				<h1 class="white bold shadow">Software Engineer</h1>
-			</div>
-		</div>
-	</div>
-</header>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("July 27, 2017 15:37:25").getTime();
 
-<!-- about and skills section -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-6 col-sm-12">
-			<div class="about">
-                <h4 class="education-title accent">Education</h4>
-							<div class="education-school">
-								<h5>University of Southern California, Los Angeles, CA</h5><span></span>
-								<h5>Master of Computer Science, Software Engineering 	Expected Graduation   May 2018</h5>
-                                <h5>Pre-Master (English courses, communication skills - (GPA: 4/4, Top Student +5%)   Jun 2016</h5>
-							</div><br>
-							<div class="education-school">
-								<h5>Azad University, Tehran, Iran </h5><span></span>
-								<h5>Bachelor of Engineering, Computer Science, Software Engineering (GPA: 16/20, Top Student +10%)  Jun 2015 </h5>
-							</div><br>
-			</div>
-		</div>
-		<div class="col-md-6 col-sm-12">
-			<div class="skills">
-				<h2 class="white">TECHNICAL SKILLS </h2>
-				<strong>JavaScript</strong>
-				<span class="pull-right">98%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
-					</div>
-				<strong>AngularJS</strong>
-				<span class="pull-right">96%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 96%;"></div>
-					</div>
-                <strong>HTML/CSS/Bootstrap</strong>
-				<span class="pull-right">92%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 92%;"></div>
-					</div>
-				<strong>C/C++/C#</strong>
-				<span class="pull-right">90%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-					</div>
-                <strong>Java</strong>
-				<span class="pull-right">60%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-					</div>
-                <strong>PHP</strong>
-				<span class="pull-right">75%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-					</div>
-                <strong>SQL</strong>
-				<span class="pull-right">95%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-					</div>
-			</div>
-		</div>
-	</div>
-</section>
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
 
-<!-- education and languages -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-8 col-sm-12">
-			<div class="education">
-				<h2 class="white">Academic Project Experience</h2>
-					<div class="education-content">
-						<h4 class="education-title accent">Farmworker safety web application</h4>
-							<div class="education-school">
-								<h5>University of Southern California</h5><span></span>
-								<h5>Sep 2016 – Present</h5>
-							</div>
-						<p class="education-description">Front-End Developer, Project manager And Life cycle planner</p>
-                        <p> •	Created Farmworker safety application, which notifies farmworkers to take a break when the temperature goes up.
-                        </p>
-                        <p> •	My team and I designed this application based on the mobile web app and text notification. After launching this project, the rate of dead farmworkers will decrease by 20% percentage. (used ASP.NET as framework, back end C#, Azure and AWS, and front end AngularJs, JavaScript, Bootstrap, CSS, HTML)
-                        </p>
-					</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-12">
-			<div class="languages">
-				<h2>Languages</h2>
-					<ul>
-						<li>Farsi / Professional</li>
-						<li>English / Professional</li>
-					</ul>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- contact and experience -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-4 col-sm-12">
-			<div class="contact">
-				<h2>Contact</h2>
-					<p><i class="fa fa-map-marker"></i> 325 W Adams Blvd, Los Angeles,CA</p>
-					<p><i class="fa fa-phone"></i> 818-934-3998</p>
-					<p><i class="fa fa-envelope"></i> navab@usc.edu</p>
-					<p><i class="fa fa-globe"></i> bit.ly/Basir_Navab</p>
-			</div>
-		</div>
-		<div class="col-md-8 col-sm-12">
-			<div class="experience">
-				<h2 class="white">Work Experience</h2>
-					<div class="experience-content">
-						<h4 class="experience-title accent">Front-End, Back-End Developer in Cloud Computing Team</h4>
-						<h5>Amir Kabir University Lab Center, Tehran, Iran</h5><span></span>
-						<h5>Sep 2014 – Aug 2015</h5>
-						<p class="education-description">•	Created different secure online payment modules based on the cloud service for three main Iranian banks (Saman, Melat and Pasargad bank). Used ProActive, ASP.net, C#/C++, MySQL and Cloud services 
-                        </p>
-                        <p>
-                            •	Developed various modules on the cloud that compute customer’s text and call services for a mobile operator company named IranCell. Used ProActive, ASP.net, C#/C++, MySQL.
-                        </p>
-					</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- footer section -->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<p>Full Resume And Contact Information</p>
-				<ul class="social-icons">
-                    <li><a href="https://drive.google.com/open?id=0B57YwuekzEn0bEY4UTZBR0czUUE" class="fa fa-book" ></a></li>
-                    <!--<li><a href="#" class="fa fa-google-plus"></a></li> -->
-					<li><a href="https://www.facebook.com/basir.navab.1" class="fa fa-facebook" ></a></li>
-                    <!--<li><a href="#" class="fa fa-google-plus"></a></li> -->
-					<li><a href="https://www.linkedin.com/in/basir-navab-2ba360130" class="fa fa-linkedin"></a></li>
-					<!--<li><a href="#" class="fa fa-dribbble"></a></li>-->
-					<li><a href="https://github.com/Basking70" class="fa fa-github"></a></li>
-					<!--<li><a href="#" class="fa fa-behance"></a></li>-->
-				</ul>
-			</div>
-		</div>
-	</div>
-</footer>
-
-<!-- javascript js -->	
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/custom.js"></script>
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
 
 </body>
 </html>
