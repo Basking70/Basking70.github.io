@@ -1,8 +1,14 @@
 .Pinfo {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
+    width: 90%;
     border-radius: 5px;
+	margin: 10px 5px 0px 0px;
+}
+
+
+Pimg {
+    border-radius: 5px 5px 0 0;
 }
 
 .Pcontainer {
