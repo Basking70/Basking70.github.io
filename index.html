@@ -1,497 +1,92 @@
 <!DOCTYPE html>
 <html>
-<head>
-  	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  	<!-- boostrap libraries ------>
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>	
-	
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="mystyle_V2.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+	background-image: url('forestbridge.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
 </style>
-<body style="background-color: #f1f1f1!important">
-
-<div class="container-fluid" style="margin:15px">  
-  <div class="row">
-	<!-- left side -->	
-	<div class="col-sm-4" style="padding:5px;">
-			<!------------------------------------------>
-			<!-- picture ---->
-			<img src="pic/Pic1.JPG" style="width:100%">
-			<h2 style="color: white; margin:-45px 0px 20px 10px;">Basir Navab</h2>
-			<div style="background-color:white; padding:2px;">
-			<!------------------------------------------>
-				<!-- About Me ---->
-					<p style="margin-left:13px;">
-						Hi!<br>
-						I'm studying master of Studying computer Science at University of Southern California<br>
-						Please feel free to look at my webite <br>
-						If you have any questions please email me.<br>
-					</p>
-			<!------------------------------------------>
-			<hr>
-				<!--- contact information --->
-				<div style="margin:15px">
-				  <p><i class="fa fa-briefcase fa-fw margin-right large text-teal"></i>Software Engineer</p>
-				  <p><i class="fa fa-home fa-fw margin-right large text-teal"></i>Los Angeles, CA</p>
-				  <p><i class="fa fa-envelope fa-fw margin-right large text-teal"></i>navab@usc.edu</p>
-				  <p><i class="fa fa-phone fa-fw margin-right large text-teal "></i>+ (818) 934-3998</p>
-				</div>
-			<!------------------------------------------>
-			<hr>
-				<!-- Links to other social medias ---->
-				<center>
-					<a class="xxxlarge" href="https://github.com/Basking70" target="_blank" style="margin-right:10px;"><i class="fa fa-github center xxxlarge text-teal"></i></a>
-
-					<a class="xxxlarge" href="https://www.linkedin.com/in/basir-navab-2ba360130" target="_blank" style="margin-right:10px;"><i class="fa fa-linkedin-square center xxxlarge text-teal"></i></a>
-
-					<a class="xxxlarge" href="https://www.facebook.com/basir.navab.1" target="_blank" style="margin-right:10px;"><i class="fa fa-facebook-official center xxxlarge text-teal"></i></a>
-
-					<a class="xxxlarge" href="resume/Resume_Basir_Navab_September_2017.pdf" target="_blank" style="margin-right:10px;"><i class="fa fa-book center xxxlarge text-teal"></i></a>
-			  </center>
-			<br>
-			<!------------------------------------------>
-			</div>
-	</div>
-    <!-- right side -->
-	<div class="col-sm-8" style="padding:5px;">
-		<div style="background-color:white; padding:25px;">
-		  <ul class="nav nav-tabs">
-			<li class="active">
-				<a data-toggle="tab" href="#Education">
-					<p style="color: #991b1e;"><i class="fa fa-graduation-cap"></i> Education</p>
-				</a>
-			</li>
-			<li>
-				<a data-toggle="tab" href="#Technical_Skills">
-					<p style="color: #991b1e; font-weight:bold;"><i class="fa fa-gears"></i> Technical Skills</p>
-				</a>
-			</li>
-			<li>
-				<a data-toggle="tab" href="#Work_Experience">
-					<p style="color: #991b1e; font-weight:bold;"><i class="fa fa-suitcase"></i> Work Experience</p>
-				</a>
-			</li>
-			<li>
-				<a data-toggle="tab" href="#ACADEMIC_PROJECT">
-					<p style="color: #991b1e; font-weight:bold;"><i class="fa fa-handshake-o"></i> ACADEMIC PROJECT</p>
-				</a>
-			</li>
-			<li>
-				<a data-toggle="tab" href="#Awards">
-					<p style="color: #991b1e; font-weight:bold;"><i class="fa fa-trophy"></i> Awards</p>
-				</a>
-			</li>
-		  </ul>
-		  <div class="tab-content">
-			<!-- Education tab ---->
-			<div id="Education" class="tab-pane fade in active">
-				<!-- Master of Computer Science, Software Engineering ------>
-					<br>
-					<div class="container">
-					  <h5 class="opacity"><b>University of Southern California, Los Angeles, CA <br> Viterbi School of Engineering</b></h5>
-						<h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i><span class="tag teal round">Expected Graduation May 2018</span></h6>
-					  <p>Master of Computer Science, Software Engineering - (GPA: 3.07/4)</p>
-
-					  <h5 class="opacity"><b>International Academy</b></h5>
-					  <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Jun 2016</h6>
-					  <p>Pre-Master ( English courses, communication skills ) - (GPA: 4/4, Top Student +5%)</p>
-
-					 <hr>
-					</div>
-
-				<!-- Bachelor of Engineering  ------>
-					<div class="container">
-					  <h5 class="opacity"><b>Azad University, Tehran, Iran</b></h5>
-					  <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Jun 2016</h6>
-					  <p>Bachelor of Engineering, Computer Science, Software Engineering - (GPA: 3.0/4.0, Top Student +10%)</p>
-					</div>
-			</div>
-			<!--------------------->
-			<!-- Technical_Skills ---->
-			<div id="Technical_Skills" class="tab-pane fade">
-			  <br>
-			  <p class="large"><b>TECHNICAL SKILLS</b></p>
-			  <!-- Programming Languages -->
-			  <p class="large"><b><i class="fa fa-asterisk fa-fw margin-right text-teal"></i>Programming Languages</b></p>
-			  <div style="margin: 0px 16px;">
-				  <p>JavaScript (Ajax, JQuery)</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%;">100%</div>
-				  </div>
-
-				  <p>HTML</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">
-					  <div class="center text-white">100%</div>
-					</div>
-				  </div>
-
-				  <p>CSS</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">100%</div>
-				  </div>
-
-				  <p>Bootstrap</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">100%</div>
-				  </div>
-
-				  <p>PHP</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:90%">90%</div>
-				  </div>
-
-				  <p>SQL</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">100%</div>
-				  </div>	
-
-				  <p>C/C++</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">100%</div>
-				  </div>
-
-				  <p>C#</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:40%">40%</div>
-				  </div>
-
-				  <br>
-</div>
-
-			  <!-- Frame works/ platform-->
-			  <p class="large"><b><i class="fa fa-asterisk fa-fw margin-right text-teal"></i>Frame works</b></p>
-			  <div style="margin: 0px 16px;">
-				  <p>AngularJS</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%;">100%</div>
-				  </div>
-
-				  <p>Node.js</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%;">100%</div>
-				  </div>
-
-				  <p>ExpressJS</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%;">100%</div>
-				  </div>
-
-				  <p>Laravel</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:85%">
-					  <div class="center text-white">85%</div>
-					</div>
-				  </div>
-
-				  <p>ASP.NET</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:70%">70%</div>
-				  </div>
-
-				  <p>Spring MVC</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:65%">65%</div>
-				  </div>
-
-				  <br>
-</div>
-
-			  <!-- DataBases -->
-			  <p class="large"><b><i class="fa fa-asterisk fa-fw margin-right text-teal"></i>DataBases</b></p>
-			  <div style="margin: 0px 16px;">
-				  <p>MongoDB</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%;">100%</div>
-				  </div>
-
-				  <p>MySQL</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">
-					  <div class="center text-white">100%</div>
-					</div>
-				  </div>
-
-				  <p>Oracle Database</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:80%">80%</div>
-				  </div>
-
-				  <p>Postgres + PostGIS</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:90%">90%</div>
-				  </div>
-
-				  <p>phpMyAdmin</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:95%">95%</div>
-				  </div>
-
-				  <br>
-</div>
-
-			  <!-- Cloud Services -->
-			  <p class="large"><b><i class="fa fa-asterisk fa-fw margin-right text-teal"></i>Cloud Services</b></p>
-			  <div style="margin: 0px 16px;">
-				  <p>AWS</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%;">100%</div>
-				  </div>
-
-				  <p>Asure</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">
-					  <div class="center text-white">100%</div>
-					</div>
-				  </div>
-
-				  <p>Google Cloud</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:95%">95%</div>
-				  </div>
-
-				  <br>
-</div>
-
-			  <!-- Applications -->
-			  <p class="large"><b><i class="fa fa-asterisk fa-fw margin-right text-teal"></i>Applications</b></p>
-			  <div style="margin: 0px 16px;">
-
-				  <p>Yeoman</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%;">100%</div>
-				  </div>				  
-
-				  <p>Npm</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%;">100%</div>
-				  </div>			  
-
-				  <p>GitHub</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%;">100%</div>
-				  </div>
-
-				  <p>Bitbucket</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">
-					  <div class="center text-white">100%</div>
-					</div>
-				  </div>
-
-				  <p>Trello</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">100%</div>
-				  </div>
-
-				  <p>Jira</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">100%</div>
-				  </div>
-
-				  <p>Microsoft project</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">100%</div>
-				  </div>
-
-				  <p>Slack</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">100%</div>
-				  </div>
-
-				  <p>MS Visual Studio</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">90%</div>
-				  </div>	
-
-				  <p>Rational Rose</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">75%</div>
-				  </div>
-
-				  <p>Adobe Photoshop (UI)</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">100%</div>
-				  </div>
-
-				  <p>MS Office</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">100%</div>
-				  </div>
-
-				  <p>Maple</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:35%">35%</div>
-				  </div>
-
-				  <p>Matlab</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:40%">40%</div>
-				  </div>
-
-				  <p>CAD</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:20%">20%</div>
-				  </div>
-
-				  <br>
-</div>
-
-			  <!-- Operating Systems -->
-			  <p class="large"><b><i class="fa fa-asterisk fa-fw margin-right text-teal"></i>Operating Systems</b></p>
-			  <div style="margin: 0px 16px;">
-				  <p>Mac</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%;">100%</div>
-				  </div>
-
-				  <p>Windows</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:100%">
-					  <div class="center text-white">100%</div>
-					</div>
-				  </div>
-
-				  <p>Linux</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:95%">95%</div>
-				  </div>
-
-				  <p>Fedora</p>
-				  <div class="light-grey round-xlarge small">
-					<div class="container center round-xlarge teal" style="width:70%">70%</div>
-				  </div>
-
-				  <br>
-</div>
-
-			  <!--- Languages --->
-			  <p class="large text-theme"><b><i class="fa fa-globe fa-fw margin-right text-teal"></i>Languages</b></p>
-			  <p>English</p>
-			  <div class="light-grey round-xlarge">
-				<div class="container center round-xlarge teal" style="height:20px;width:100%">%100</div>
-</div>
-			  <p>Farsi</p>
-			  <div class="light-grey round-xlarge">
-            <div class="container center round-xlarge teal" style="height:20px;width:100%">%100</div>
-          </div>
-          
-				
-				
-			</div>
-			<!--------------------->
-			<!-- Work Experience ---->
-			<div id="Work_Experience" class="tab-pane fade">
-			<br>
-				<h2 class="text-grey padding-16"><i class="fa fa-suitcase fa-fw margin-right xxlarge text-teal"></i>Work Experience</h2>
-				<!--------------------------------------------------->
-				<div class="container">
-				  <h5 class="opacity"><b>Software Engineering Summer Intern <br> Realization of Robotic Systems Lab (USC), Los Angeles, CA</b></h5>
-				  <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>June 2017 - <span class="tag teal round">Current</span></h6>
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Designed a web application for the USC lab which let lab manager to manage the lab website content dynamically and lab members to manage their profile and adding new content such as their new projects and their papers and so on. </p>          
-
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Used MEAN stack (MongoDB, ExpressJS, AngularJS and Node.js) for developing the lab web application as well as using Yeoman for generating and scaffolding, bower to manage dependencies, CSS, Bootstrap, JQuery and HTML. </p>			  
-
-				  <p>
-					  <i class="fa fa-check text-teal" aria-hidden="true"></i> You can see the web application here: 
-					  <a href="http://cam.usc.edu" target="_blank" class="text-teal large" style="font-weight: 700;">cam.usc.edu</a> 
-				  </p>
-
-				  <hr>
-				</div>
-
-				<!--------------------------------------------------->		
-				<div class="container">
-				  <h5 class="opacity"><b>Front-End, Back-End Developer <br> Gentle Care Home Health Services, Inc., Los Angeles, CA</b> </h5>
-				  <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Jun 2016 – Sep 2016</h6>
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Monitored their website and different medical applications that were shared among all nurses.</p>          
-
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Implemented a notification application based on mobile texting for sending patient’s information to different nurses. Developed by Laravel frame work with CSS, Bootstrap, HTML and PHP, MySQL</p>
-				  <hr>
-				</div>
-
-				<!--------------------------------------------------->
-				<div class="container">
-				  <h5 class="opacity"><b>Front-End, Back-End Developer in Cloud Computing Team<br> Amir Kabir University Lab Center, Tehran, Iran</b></h5>
-				  <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Sep 2014 – Aug 2015</h6>
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Created different secure online payment modules based on the cloud service for three main Iranian banks (Saman, Melat and Pasargad bank). Used ProActive, ASP.net, C#/C++, MySQL.</p>          
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Developed various modules on the cloud that compute customer’s text and call services for a mobile operator company named IranCell. Used ProActive, ASP.net, C#/C++, MySQL.</p>
-				</div>	
-
-				<!--------------------------------------------------->
-				<div class="container">
-				  <h5 class="opacity"><b>IT Man, Front-End, Back-End Developer<br> Navaplast and Navakhodro Company, Tehran, Iran</b></h5>
-				  <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Jun 2014 – Aug 2014</h6>
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Monitored the local network between different sections of the two companies.</p>          
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Developed different construction measurement application by using ASP.NET, C++, MySQL.</p>
-				</div>	
-
-				<!--------------------------------------------------->
-				<div class="container">
-				  <h5 class="opacity"><b>Sales Manager<br> Navaplast Company, Tehran, Iran</b></h5>
-				  <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Jun 2013 – Sep 2013</h6>
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Managed a team of 15 people in the sales department, and 60 different sales offices in multiple international cities</p>          
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Managed the risks, presented efficient ideas, and increased the level of sales by 300%</p>
-				</div>
-				<!--------------------------------------------------->
-			 </div>
-			<!--------------------->
-			<!-- ACADEMIC_PROJECT ---->			  
-			<div id="ACADEMIC_PROJECT" class="tab-pane fade">
-				
-				<h2 class="text-grey padding-16"><i class="fa fa-handshake-o fa-fw margin-right xxlarge text-teal"></i>ACADEMIC PROJECT EXPERIENCE</h2>
-
-				<!--------------------------------------------------->		
-				<div class="container">
-				  <h5 class="opacity"><b>Front-End, Back-End Developer<br>Side project (Address Management), Los Angeles, CA</b> </h5>
-				  <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Jun 2016 – <span class="tag teal round">Current</span></h6>
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Developing an amazing idea with my team which let people to change their mailing address once in the website and the website is changing their mailing address anywhere such as Banks, DMV. They don’t need to change their address one by one. This solution saves new movers time and make moving much easier for them than it used to be.</p>          
-
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> We will use MEAN stack (MongoDB, ExpressJS, AngularJS and Node.js) as well as using CSS, Bootstrap, JQuery, HTML, Yeoman and AWS services for creating the first prototype.</p>
-				</div>
-
-				<!--------------------------------------------------->
-				<div class="container">
-				  <h5 class="opacity"><b>University of Southern California, Los Angeles, CA<br> Front-End Developer, Project manager And Life cycle planner</b></h5>
-				  <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Sep 2016 – May 2017</h6>
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Created Farmworker safety application, which notifies farmworkers to take a break when the temperature goes up by texting them. They either can sign up via text or the web application. After launching this project, the rate of dead farmworkers decreased by 40% percentage.</p>          
-
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> Developed this web app for both mobile and desktop versions. My team and I used AngularJs, Bootstrap, CSS, HTML for the front End as well as using node.js, npm package, SQL server for the back-end and using AWS services)</p>
-				  <hr>
-				</div>
-				<!--------------------------------------------------->
-			  
-			</div>
-			<!--------------------->
-			<!-- Awards ---->	
-			<div id="Awards" class="tab-pane fade">
-				<h2 class="text-grey padding-16"><i class="fa fa-trophy fa-fw margin-right xxlarge text-teal"></i>Awards</h2>
-				<!--------------------------------------------------->
-				<div class="container">
-				  <h5 class="opacity"><b>Kharazmi Competition,Tehran ,Iran</b></h5>
-				  <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>2009</h6>
-				  <p><i class="fa fa-check text-teal" aria-hidden="true"></i> 1nd place at Kharazmi programing competition, a competition between talented students in Iran, to solve different problems and present efficient ideas.</p>          
-				</div>
-				<!--------------------------------------------------->
-			</div>
-		  </div>
-		</div>   
-    </div>
+<body>
+
+<div class="bgimg">
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p id="demo" style="font-size:30px"></p>
+  </div>
+  <div class="bottomleft">
+	 <p> In the meantime you can visit <br>
+	  BasirNavab.com<br>
+    navab@usc.edu</p>
   </div>
 </div>
-	
-<footer style="color: #fff!important; background-color: #3B5998!important; text-align: center; padding: 10px;">
-  	<p>© 2018 Developed by Basir Navab<br>
-	<a href="mailto:navab@usc.edu" target="_top">navab@usc.edu</a></p>
-</footer>
-	
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 29, 2017 23:59:59").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+
 </body>
 </html>
