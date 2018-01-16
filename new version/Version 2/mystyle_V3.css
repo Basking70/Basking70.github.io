@@ -1,0 +1,141 @@
+div.polaroid {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 5px -3px 15px 3px;
+	}
+	div.Left_Container {
+	  padding: 15px;
+	}
+	.mediom{
+		font-size: 15px!important
+	}
+	.large {
+		font-size: 18px!important
+	}
+	.xlarge {
+		font-size: 22px!important
+	}
+	.xxlarge {
+		font-size: 24px!important
+	}
+	.xxxlarge {
+		font-size: 50px!important
+	}	
+	.blue{
+		color: #3b5998;
+	}
+	.title_margin{
+		margin: 5px 25px 5px 10px;
+	}
+	.bold{
+		font-weight:bold;
+	}
+	.center{
+		text-align: center;
+	}
+	.opacity {
+		opacity: 0.9;
+		font-size: 24px;
+	}
+	.margin_item_title {
+    	margin: 20px 20px 15px 10px!important
+	}
+	.tag {
+		background-color: #000;
+		color: #fff;
+		display: inline-block;
+		padding: 3px 8px;
+		text-align: center
+	}
+	.teal,
+	.hover-teal:hover {
+		color: #fff!important;
+		background-color: #3B5998!important
+	}
+	.round-small {
+		border-radius: 2px
+	}
+
+	.round,
+	.round-medium {
+		border-radius: 4px
+	}
+
+	.round-large {
+		border-radius: 8px
+	}
+
+	.round-xlarge {
+		border-radius: 16px
+	}
+
+	.round-xxlarge {
+		border-radius: 32px
+	}
+	.margin_left_education_body{
+		margin-left: 10px;
+	}
+	.margin_right_technical_skills{
+		margin-right: 15px;
+	}
+	.gray{
+		color: gray;
+	}
+	.margin_left{
+		margin-left: 10px;
+	}
+	/* -------------------------------------------- */
+	/* styling the pictures in Certificates section */
+	/* -------------------------------------------- */
+	.container_Certificates {
+	  position: relative;
+	  width: 50%;
+	}
+
+	.image_Certificates {
+	  display: block;
+	  width: 200%;
+	  height: auto;
+	}
+
+	.overlay_Certificates {
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  opacity: 0.5;
+	  background-color: lightgray;
+	  overflow: hidden;
+	  width: 200%;
+	  height: 0;
+	  transition: .5s ease;
+	}
+
+	.container_Certificates:hover .overlay_Certificates {
+	  height: 100%;
+	}
+
+	.text_Certificates {
+	  white-space: nowrap; 
+	  color: black;
+	  font-weight:bold;
+	  font-size: 20px;
+	  position: absolute;
+	  overflow: hidden;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	}
+	/* -------------------------------------------- */
+	/* -------------------------------------------- */
+	.margin-top {
+    	margin-top: 16px!important
+	}
+	.teal,
+	.hover-teal:hover {
+		color: #fff!important;
+		background-color: #3B5998!important
+	}
+	.padding_Down_Bar{
+		padding: 15px;
+	}
