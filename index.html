@@ -1,92 +1,71 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<meta charset="utf-8">
+	<title>Basir Navab</title>
+	<!-- boostrap3 -->
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!---- icons & font awesome---->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+	 
+</head>
 <style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-.bgimg {
-	background-image: url('forestbridge.jpg');
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
-}
-
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-}
-
-.bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-}
-
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-hr {
-    margin: auto;
-    width: 40%;
-}
+	div.polaroid {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 5px -3px 15px 3px;
+		width:80%
+	}	
+	div.Left_Container {
+	  padding: 15px;
+	}
+	.large {
+		font-size: 18px!important
+	}
+	.bold{
+		font-weight:bold;
+	}
+	.center{
+		text-align: center;
+	}
+	.xxxlarge {
+		font-size: 50px!important
+	}	
 </style>
 <body>
+	
+<div class="container-fluid">
+  <div class="row">
+	<!------- right colume -------->
+	<div class="col-sm-4">
+	</div>
+	<!------- middle colume -------->
+    <div class="col-sm-4">
+		<div class="polaroid">
+			<img src="Pic1.JPG" alt="Basir Navab" style="width:100%">
+			<h2 style="color: white; margin-top: -45px; margin-left: 10px;"> Basir Navab </h2>
+			<div class="Left_Container">
+				<!-- General information -->
+				<p class="large bold center">Please Visit my Personal Website:</p>
+				<p class="large bold center">
+					<a href="http://BasirNavab.com" target="_blank">http://BasirNavab.com</a>
+				</p>
+				<hr>
+				<!--- link to social medias -->
+				<center>
+					<a class="xxxlarge" href="http://BasirNavab.com" target="_blank" style="margin-right:10px;"><i class="fas fa-graduation-cap"></i></a>
+				</center>
+			</div>
+		</div>
+	</div>
+  	<!------- left colume -------->
+	<div class="col-sm-4">
+	</div>
+  </div>	
 
-<div class="bgimg">
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p id="demo" style="font-size:30px"></p>
-  </div>
-  <div class="bottomleft">
-	 <p> In the meantime you can visit <br>
-	  BasirNavab.com<br>
-    navab@usc.edu</p>
-  </div>
 </div>
-
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Dec 29, 2017 23:59:59").getTime();
-
-// Update the count down every 1 second
-var countdownfunction = setInterval(function() {
-
-    // Get todays date and time
-    var now = new Date().getTime();
-    
-    // Find the distance between now an the count down date
-    var distance = countDownDate - now;
-    
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-    
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(countdownfunction);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-}, 1000);
-</script>
-
 </body>
 </html>
